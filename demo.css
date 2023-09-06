@@ -11,14 +11,23 @@ h1 {
 }
 p {
     text-align: center;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 /* imagen */ 
 picture {
     display: flex;
     justify-content: center;
+    margin-top: 55px;
+}
+picture img {
+    width: 250px;
 }
 
+#Moriste{
+    color: rgb(255, 0, 0);
+}
 
 /* lista y enlace */
 #opciones {
@@ -27,6 +36,9 @@ picture {
     padding: 0;
 }
 
+#sinsajo2 {
+    width: 600px;
+}
 #opciones li {
     display: inline-block; /* la lista la coloca horizontalmente */
     padding: 5px;
@@ -34,13 +46,14 @@ picture {
 
 .boton {
     text-decoration: none; /* Eliminamos el subrayado del enlace */
-    color: #fff;
+    color: #fcfcfc;
     border:3px solid rgb(167, 167, 167);
-    padding: 5px; /* margen interior */
-    border-radius: 10px;
+    padding: 15px; /* margen interior */
+    border-radius: 100px;
     display: inline-block;
+    font-size: 20px;
 }
 .boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
     color: #000;
 }
