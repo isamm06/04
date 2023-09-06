@@ -1,0 +1,46 @@
+/* CSS de la página de demo.html */
+
+body {
+    background-color: #000; /* color de fondo de toda la página */ 
+    color:#fff; /* color de letra de toda la página */
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900; /* peso del contorno de la letra */
+}
+p {
+    text-align: center;
+}
+
+/* imagen */ 
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* lista y enlace */
+#opciones {
+    text-align: center;
+    list-style: none; /* elimina los puntitos (viñeta) */
+    padding: 0;
+}
+
+#opciones li {
+    display: inline-block; /* la lista la coloca horizontalmente */
+    padding: 5px;
+}
+
+.boton {
+    text-decoration: none; /* Eliminamos el subrayado del enlace */
+    color: #fff;
+    border:3px solid rgb(167, 167, 167);
+    padding: 5px; /* margen interior */
+    border-radius: 10px;
+    display: inline-block;
+}
+.boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: burlywood;
+    color: #000;
+}
